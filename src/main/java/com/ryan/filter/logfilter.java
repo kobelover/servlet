@@ -9,8 +9,8 @@ import java.io.IOException;
  */
 public class logfilter implements Filter {
     public void init(FilterConfig filterConfig) throws ServletException {
-        String site = filterConfig.getInitParameter("Site");
-        System.out.println("网站名称: " + site);
+        String name = filterConfig.getInitParameter("name");
+        System.out.println("name: " + name);
 
     }
 
