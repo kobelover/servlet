@@ -1,4 +1,7 @@
-# servlet
-this is java servlet api 4.0  test
+# why
 
-# this is demo for understand java servlet 4.0 demo
+ Java Servlet is the foundation web specification in the Java Enterprise Platform,
+this is demo for understand Java Servlet 4.0 API,
+
+## HelloWorld
+set env
