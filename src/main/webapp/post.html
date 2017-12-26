@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is post Form</title>
+</head>
+<body>
+<!-- com.ryan.form.Form 这个类必须实现了doPost这个方法
+    // 处理 POST 方法请求的方法
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        doGet(request, response);
+    }
+-->
+    <form action="http://localhost:8080/form" method="post">
+        name：<input type="text" name="name">
+        <br />
+        age：<input type="text" name="age" />
+        <input type="submit" value="提交" />
+    </form>
+</body>
+</html>
