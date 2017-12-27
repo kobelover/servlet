@@ -75,5 +75,19 @@
         <url-pattern>/CookieExample</url-pattern>
     </servlet-mapping>
 
+    <!--This is Cookie example-->
+    <servlet>
+        <servlet-name>SessionExample</servlet-name>
+        <servlet-class>com.ryan.session.SessionExample</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SessionExample</servlet-name>
+        <url-pattern>/SessionExample</url-pattern>
+    </servlet-mapping>
+    <!--此处设置将覆盖tomcat的时间 分钟单位-->
+    <session-config>
+        <session-timeout>10</session-timeout>
+    </session-config>
 
 </web-app>
