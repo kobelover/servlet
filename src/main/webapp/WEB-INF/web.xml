@@ -90,4 +90,14 @@
         <session-timeout>10</session-timeout>
     </session-config>
 
+    <servlet>
+        <servlet-name>PageRedirect</servlet-name>
+        <servlet-class>com.ryan.redirect.PageRedirect</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>PageRedirect</servlet-name>
+        <url-pattern>/PageRedirect</url-pattern>
+    </servlet-mapping>
+
 </web-app>
