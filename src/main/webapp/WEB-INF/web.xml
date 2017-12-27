@@ -63,4 +63,17 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
     <!--过滤器 end-->
+
+    <!--This is Cookie example-->
+    <servlet>
+        <servlet-name>CookieExample</servlet-name>
+        <servlet-class>com.ryan.cookie.CookieExample</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CookieExample</servlet-name>
+        <url-pattern>/CookieExample</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>
